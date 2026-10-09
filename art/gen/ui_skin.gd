@@ -1,4 +1,4 @@
-﻿class_name UiSkin
+class_name UiSkin
 extends RefCounted
 ## Ramele pixel art ale interfeței (9-slice): lemn cu aur, piatră, pergament, buton roșu.
 ## Desenate la rezoluție mică și mărite de 3 ori, ca marginile să rămână pixelate.

@@ -1,4 +1,4 @@
-﻿class_name Ground
+class_name Ground
 extends Node2D
 ## Pământul nesfârșit al capitolului: desenează doar ce e vizibil în jurul camerei.
 ## Fiecare capitol are alte culori și alte decoruri; cele care strălucesc sunt pe un strat

@@ -1,4 +1,4 @@
-﻿class_name UiTheme
+class_name UiTheme
 extends RefCounted
 ## Stilul vizual unic al interfeței: piatră întunecată, rame aurii, strălucire violet.
 ## Toate ecranele folosesc aceeași temă, ca jocul să arate unitar.

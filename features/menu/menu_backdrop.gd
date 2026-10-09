@@ -1,4 +1,4 @@
-﻿class_name MenuBackdrop
+class_name MenuBackdrop
 extends Control
 ## Fundalul meniului: cer de noapte cu dithering, lună, nori, lilieci, munți,
 ## castelul lui Vlaskar, satul cu ferestre aprinse, pădure și ceață.

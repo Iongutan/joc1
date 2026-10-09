@@ -1,4 +1,4 @@
-﻿extends Control
+extends Control
 ## Meniul principal (vertical): resurse sus, eroul pe piedestal, capitolul ales,
 ## buton mare „Luptă” și navigare jos — după modelul jocurilor de succes din gen.
 

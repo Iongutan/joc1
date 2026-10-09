@@ -1,4 +1,4 @@
-﻿class_name ProjectileManager
+class_name ProjectileManager
 extends Node2D
 ## Proiectilele eroului, ca liste de date + un MultiMesh cu atlas (un tip pe coloană).
 ## Comportamente: normal (lovește și dispare / străpunge), exploziv (damage în zonă),

@@ -1,4 +1,4 @@
-﻿extends Weapon
+extends Weapon
 ## Floarea Albă: aură care rănește inamicii din jurul eroului.
 
 var radius: float = 40.0

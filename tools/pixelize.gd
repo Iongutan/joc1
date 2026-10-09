@@ -1,4 +1,4 @@
-﻿extends SceneTree
+extends SceneTree
 ## Transformă o ilustrație într-un sprite pixel art:
 ## scoate fundalul alb, micșorează la înălțimea țintă, reduce culorile, adaugă contur.
 ## Folosire: godot --headless --script pixelize.gd -- in1.jpg in2.jpg ... --out=preview.png --h=96

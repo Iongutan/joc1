@@ -1,4 +1,4 @@
-﻿class_name HeroRig
+class_name HeroRig
 extends Node2D
 ## Eroul ca „păpușă”: părți separate (păr, pălărie, brațe, picioare, haine, armă) desenate
 ## la rezoluție mică și animate independent. HeroView le mărește și adaugă contur pixel.

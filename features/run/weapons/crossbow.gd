@@ -1,4 +1,4 @@
-﻿extends Weapon
+extends Weapon
 ## Arbaleta de argint: trage spre cel mai apropiat inamic.
 
 var cooldown: float = 0.9

@@ -1,4 +1,4 @@
-﻿extends Node
+extends Node
 ## Progresul jucătorului, salvat pe telefon (user://save.cfg).
 
 const PATH := "user://save.cfg"

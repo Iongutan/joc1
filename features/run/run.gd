@@ -1,4 +1,4 @@
-﻿extends Node2D
+extends Node2D
 ## Scena de luptă. Ordinea pe cadru e fixă, ca toate sistemele să vadă date consistente:
 ## erou → inamici (+grilă) → arme → proiectile → ștergerea morților → cristale → spawn → desenare.
 

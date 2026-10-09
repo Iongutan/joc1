@@ -1,4 +1,4 @@
-﻿class_name Hud
+class_name Hud
 extends CanvasLayer
 ## Interfața din luptă (vertical): portretul eroului, inimile, experiența, timpul,
 ## bara boss-ului și butonul de super-putere.

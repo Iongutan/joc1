@@ -1,4 +1,4 @@
-﻿class_name Chapters
+class_name Chapters
 extends RefCounted
 ## Capitolele Actului I. Fiecare are alt peisaj, alte culori și alt boss.
 

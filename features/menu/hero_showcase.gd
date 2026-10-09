@@ -1,4 +1,4 @@
-﻿class_name HeroShowcase
+class_name HeroShowcase
 extends Control
 ## Eroul mare, animat, pe un piedestal de piatră între două torțe aprinse.
 

@@ -1,4 +1,4 @@
-﻿class_name Effects
+class_name Effects
 extends Node2D
 ## Efecte vizuale reutilizate (fără creare și ștergere în timpul luptei):
 ## cifre de damage, explozii la moartea monștrilor, bliț pe ecran.

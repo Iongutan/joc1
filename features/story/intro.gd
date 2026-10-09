@@ -1,4 +1,4 @@
-﻿extends Control
+extends Control
 ## Prologul: scene ilustrate cu text care apare literă cu literă.
 ## Atinge ecranul ca să continui; „Sari peste” duce direct în meniu.
 

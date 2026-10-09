@@ -1,4 +1,4 @@
-﻿class_name EnemyManager
+class_name EnemyManager
 extends Node2D
 ## Toți inamicii trăiesc aici, ca liste de date (fără noduri și fără fizică).
 ## Se desenează dintr-o singură comandă printr-un MultiMesh cu atlas animat.

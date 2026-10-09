@@ -1,4 +1,4 @@
-﻿class_name HeroesScreen
+class_name HeroesScreen
 extends Control
 ## Ecranul eroilor (stil Guardian Tales): eroul mare la mijloc, 6 locuri de echipament
 ## în jurul lui, statistici și inventarul dedesubt.

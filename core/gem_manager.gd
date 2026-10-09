@@ -1,4 +1,4 @@
-﻿class_name GemManager
+class_name GemManager
 extends Node2D
 ## Cristalele de experiență lăsate de inamici.
 

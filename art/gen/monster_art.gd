@@ -1,4 +1,4 @@
-﻿class_name MonsterArt
+class_name MonsterArt
 extends RefCounted
 ## Monștrii, desenați pixel cu pixel și puși într-un atlas (rând = tip, coloană = cadru).
 ## EnemyManager îi desenează pe toți dintr-o comandă, cu shader-ul care alege cadrul.

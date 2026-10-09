@@ -1,4 +1,4 @@
-﻿class_name StoryArt
+class_name StoryArt
 extends Control
 ## Ilustrațiile poveștii. Se desenează la rezoluție mică (prin PixelCanvas), cu benzi de
 ## culoare cu dithering, ca în jocurile pixel art. Eroul apare animat prin HeroPortrait.

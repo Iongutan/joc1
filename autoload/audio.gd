@@ -1,4 +1,4 @@
-﻿extends Node
+extends Node
 ## Sunete, muzică și vibrații. Efectele sonore sunt sintetizate din cod (stil retro 8-bit)
 ## până vin fișierele audio finale. Vibrația merge doar pe telefon.
 

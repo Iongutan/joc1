@@ -1,4 +1,4 @@
-﻿class_name SuperCutIn
+class_name SuperCutIn
 extends CanvasLayer
 ## Scena scurtă la activarea super-puterii: bandă diagonală, portretul eroului
 ## care intră în cadru și numele puterii (stil anime, ca în jocurile de gen).

@@ -1,4 +1,4 @@
-﻿class_name Player
+class_name Player
 extends Node2D
 ## Eroul controlat de jucător: animații pixel art, viață pe inimi, super-putere.
 

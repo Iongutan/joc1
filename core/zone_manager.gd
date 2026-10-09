@@ -1,4 +1,4 @@
-﻿class_name ZoneManager
+class_name ZoneManager
 extends Node2D
 ## Zone pe pământ: bălți de apă sfințită, foc rămas după meteori, și lovituri întârziate
 ## (țepi de gheață, meteori) care întâi arată un semn de avertizare, apoi lovesc.

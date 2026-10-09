@@ -1,4 +1,4 @@
-﻿extends Weapon
+extends Weapon
 ## Lamele Lunii: lame care se rotesc în jurul eroului.
 
 var count: int = 2

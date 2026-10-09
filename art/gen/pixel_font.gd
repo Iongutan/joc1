@@ -1,4 +1,4 @@
-﻿class_name PixelFont
+class_name PixelFont
 extends RefCounted
 ## Font pixel desenat de mână (5x7), cu diacritice românești și contur închis la culoare.
 ## Mărimi recomandate (multipli de 12): 24, 36, 48, 60, 72.

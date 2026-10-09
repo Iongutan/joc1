@@ -1,4 +1,4 @@
-﻿extends Weapon
+extends Weapon
 ## Pistolul cu cremene (Corvin): foc în evantai, scurt și puternic, împinge inamicii.
 
 var cooldown: float = 1.4

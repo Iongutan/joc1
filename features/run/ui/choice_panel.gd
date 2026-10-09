@@ -1,4 +1,4 @@
-﻿class_name ChoicePanel
+class_name ChoicePanel
 extends CanvasLayer
 ## Panou cu titlu, text și butoane, afișat peste joc cât timp e pe pauză.
 ## Folosit pentru nivel nou și pentru ecranul de moarte.

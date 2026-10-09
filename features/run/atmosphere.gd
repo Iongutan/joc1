@@ -1,4 +1,4 @@
-﻿class_name Atmosphere
+class_name Atmosphere
 extends Node
 ## Atmosfera nopții: întuneric general, vignetă, licurici care plutesc în jurul eroului.
 ## Lumina propriu-zisă a eroului e în Player.

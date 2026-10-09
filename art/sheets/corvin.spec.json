@@ -1,0 +1,18 @@
+{
+  "name": "corvin",
+  "cell": [96, 96],
+  "pivot": [48, 93],
+  "margin": 2,
+  "extract_palette": 40,
+  "palette": "../palettes/corvin.hex",
+  "out_png": "corvin_sheet.png",
+  "out_json": "corvin_sheet.json",
+  "animations": {
+    "idle":    { "source": "../heroes/corvin_idle.png",   "frames": 4, "fps": 6,  "loop": true,  "fx": "breathe" },
+    "run":     { "source": "../heroes/corvin_idle.png",   "frames": 6, "fps": 12, "loop": true,  "fx": "hop" },
+    "attack":  { "source": "../heroes/corvin_attack.png", "frames": 3, "fps": 14, "loop": false, "fx": "recoil" },
+    "super":   { "source": "../heroes/corvin_attack.png", "frames": 4, "fps": 8,  "loop": true,  "fx": "float" },
+    "hurt":    { "source": "../heroes/corvin_idle.png",   "frames": 2, "fps": 12, "loop": false, "fx": "flash" },
+    "victory": { "source": "../heroes/corvin_attack.png", "frames": 4, "fps": 8,  "loop": true,  "fx": "float" }
+  }
+}

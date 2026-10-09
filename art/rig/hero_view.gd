@@ -9,6 +9,8 @@ var hero_id: String = "corvin"
 var anim: String = "idle"
 var facing: float = 1.0
 var sprite: Sprite2D
+## Dacă eroul are un sprite sheet (art/sheets/<id>_sheet.json), se folosesc cadrele desenate.
+var animated: AnimatedSprite2D
 
 var _t: float = 0.0
 var _anim_t: float = 0.0
@@ -17,6 +19,15 @@ var _flash: float = 0.0
 
 func setup(id: String) -> void:
 	hero_id = HeroArt.valid(id)
+	var sheet := "res://art/sheets/%s_sheet.json" % hero_id
+	if SheetLoader.has_sheet(sheet):
+		animated = AnimatedSprite2D.new()
+		animated.sprite_frames = SheetLoader.frames(sheet)
+		animated.offset = SheetLoader.pivot_offset(sheet)
+		animated.animation_finished.connect(func() -> void: play("idle"))
+		add_child(animated)
+		animated.play("idle")
+		return
 	sprite = Sprite2D.new()
 	sprite.centered = false
 	add_child(sprite)
@@ -37,15 +48,22 @@ func play(a: String) -> void:
 		return
 	anim = a
 	_anim_t = 0.0
+	if animated != null:
+		animated.play(a if animated.sprite_frames.has_animation(a) else "idle")
+		return
 	if a == "hurt":
 		_flash = 0.12
 
 
 func set_facing(f: float) -> void:
 	facing = f
+	if animated != null:
+		animated.flip_h = f < 0.0
 
 
 func _process(delta: float) -> void:
+	if animated != null:
+		return
 	_t += delta
 	_anim_t += delta
 	# pozițiile se schimbă în pași (12 cadre/s), ca la animația pixel art clasică

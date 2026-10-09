@@ -1,0 +1,11 @@
+Validare lizibilitate — 2026-10-09
+
+OK   doll:cultist  înălțime=27  contrast=0.20  accent=24%  siluetă=0.80  culori=28  întuneric=0.06  ⚠ greu de văzut în întuneric
+OK   doll:skeleton_knight  înălțime=27  contrast=0.35  accent=53%  siluetă=0.59  culori=45  întuneric=0.09  ⚠ greu de văzut în întuneric
+OK   doll:swamp_witch  înălțime=30  contrast=0.19  accent=26%  siluetă=0.68  culori=30  întuneric=0.05  ⚠ greu de văzut în întuneric
+OK   hero:corvin  înălțime=82  contrast=0.13  accent=13%  siluetă=0.52  culori=39  întuneric=0.03  ⚠ greu de văzut în întuneric
+OK   hero:ilva  înălțime=82  contrast=0.34  accent=61%  siluetă=0.56  culori=40  întuneric=0.09  ⚠ greu de văzut în întuneric
+OK   hero:mira  înălțime=82  contrast=0.17  accent=23%  siluetă=0.55  culori=40  întuneric=0.04  ⚠ greu de văzut în întuneric
+
+Praguri (fără glow, în lumina eroului, cel mai rău capitol): înălțime>=24, contrast>=0.10, accent>=12%, siluetă>=0.30, culori<=64. "întuneric" = contrast fără lumină (doar avertisment).
+Previzualizare: docs/audit/readability.png (pe rânduri: cu glow / fără glow; pe coloane: capitolele)

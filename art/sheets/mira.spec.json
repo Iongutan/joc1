@@ -1,0 +1,18 @@
+{
+  "name": "mira",
+  "cell": [96, 96],
+  "pivot": [48, 93],
+  "margin": 2,
+  "extract_palette": 40,
+  "palette": "../palettes/mira.hex",
+  "out_png": "mira_sheet.png",
+  "out_json": "mira_sheet.json",
+  "animations": {
+    "idle":    { "source": "../heroes/mira_idle.png",   "frames": 4, "fps": 6,  "loop": true,  "fx": "breathe" },
+    "run":     { "source": "../heroes/mira_idle.png",   "frames": 6, "fps": 12, "loop": true,  "fx": "hop" },
+    "attack":  { "source": "../heroes/mira_attack.png", "frames": 3, "fps": 14, "loop": false, "fx": "recoil" },
+    "super":   { "source": "../heroes/mira_attack.png", "frames": 4, "fps": 8,  "loop": true,  "fx": "float" },
+    "hurt":    { "source": "../heroes/mira_idle.png",   "frames": 2, "fps": 12, "loop": false, "fx": "flash" },
+    "victory": { "source": "../heroes/mira_attack.png", "frames": 4, "fps": 8,  "loop": true,  "fx": "float" }
+  }
+}
